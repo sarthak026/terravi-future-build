@@ -28,22 +28,11 @@ const About = () => {
               <h2 className="text-4xl font-bold text-center mb-12">Our Story</h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  TerraVi was born from a simple yet powerful belief: that sustainable development 
-                  is not just an aspiration, but an achievable reality when communities, innovation, 
-                  and dedicated action come together. Founded by a group of passionate changemakers, 
-                  our organization emerged from the recognition that the world's most pressing challenges 
-                  require localized solutions with global impact.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  Our journey began in rural communities across India, where we witnessed firsthand 
-                  the transformative power of clean water access, renewable energy, and education. 
-                  What started as small-scale interventions has grown into a comprehensive approach 
-                  to sustainable development, touching thousands of lives and inspiring countless others 
-                  to join our mission.
-                </p>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  Today, TerraVi stands as a beacon of hope and practical action, proving that with 
-                  the right approach, we can indeed build tomorrow's world today.
+                  Founded as a response to India's urgent need for sustainable development solutions, 
+                  TerraVi emerged from the recognition that environmental challenges require community-
+                  centered approaches. We believe that lasting change happens when local communities are 
+                  empowered with the tools, knowledge, and resources they need to create their sustainable 
+                  future.
                 </p>
               </div>
             </div>
@@ -61,9 +50,9 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
                 <p className="text-muted-foreground">
-                  A world where every community has access to clean water, sustainable energy, 
-                  quality education, and a healthy environment, creating a future where people 
-                  and planet thrive in harmony.
+                  To create a world where every individual has access to clean water, healthy food, 
+                  and a safe environment, while ensuring the preservation of natural ecosystems for 
+                  future generations.
                 </p>
               </div>
 
@@ -74,9 +63,9 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
                 <p className="text-muted-foreground">
-                  To drive sustainable development through community-driven initiatives, 
-                  innovative solutions, and global partnerships, inspired by the UN 
-                  Sustainable Development Goals.
+                  To promote sustainable development through community-driven initiatives, 
+                  innovative solutions, and global partnerships, building a resilient and 
+                  equitable society where people and planet thrive together.
                 </p>
               </div>
 
@@ -85,13 +74,13 @@ const About = () => {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Heart className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Our Values</h3>
+                <h3 className="text-2xl font-bold mb-4">Core Values</h3>
                 <ul className="text-muted-foreground text-left space-y-2">
-                  <li>• Community-first approach</li>
-                  <li>• Transparency & accountability</li>
-                  <li>• Innovation & sustainability</li>
-                  <li>• Inclusivity & equity</li>
-                  <li>• Collaboration & partnership</li>
+                  <li>• Community First: We believe in grassroots solutions that empower local communities</li>
+                  <li>• Innovation for Impact: We harness science-based technologies for maximum positive impact</li>
+                  <li>• Collaboration: We work with governments, civil society, the private sector, and communities</li>
+                  <li>• Transparency: We maintain open communication about our impact and challenges</li>
+                  <li>• Sustainability: Every solution we implement considers long-term environmental and social impact</li>
                 </ul>
               </div>
             </div>

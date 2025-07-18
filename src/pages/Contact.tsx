@@ -9,20 +9,28 @@ import { MapPin, Phone, Mail, Clock, MessageCircle, HelpCircle } from 'lucide-re
 const Contact = () => {
   const faqs = [
     {
-      question: "How can I volunteer with TerraVi?",
-      answer: "Visit our Get Involved page to explore various volunteer opportunities. We offer roles for different skills and time commitments."
+      question: "How is TerraVi different from other environmental NGOs?",
+      answer: "TerraVi focuses on science-based, community-driven solutions that address multiple SDGs simultaneously. Our integrated approach combines water access, renewable energy, education, and economic empowerment in a single program."
     },
     {
-      question: "Where do my donations go?",
-      answer: "100% of donations go directly to our programs. We maintain complete transparency with annual reports showing exact fund allocation."
+      question: "Are donations to TerraVi tax-deductible?",
+      answer: "Yes, TerraVi is registered under Section 12A and 80G of the Income Tax Act. All donations are eligible for tax deductions."
     },
     {
-      question: "Do you operate internationally?",
-      answer: "While we're based in India, we're expanding globally. We also partner with international organizations for broader impact."
+      question: "How can I verify TerraVi's impact claims?",
+      answer: "We publish detailed annual impact reports, maintain third-party audits, and provide transparent project updates. Visit our transparency portal for real-time project data."
     },
     {
-      question: "How can schools partner with TerraVi?",
-      answer: "We offer various school programs including sustainability education, student exchange, and project-based learning initiatives."
+      question: "Do I need prior experience to volunteer?",
+      answer: "No prior experience necessary. We provide comprehensive training for all volunteer roles and match opportunities to your skills and interests."
+    },
+    {
+      question: "Can I volunteer remotely?",
+      answer: "Yes! We offer remote opportunities in digital advocacy, research, content creation, and online education support."
+    },
+    {
+      question: "How do you choose communities for your programs?",
+      answer: "We use data-driven selection criteria, including need assessment, community readiness, local partnerships, and potential for sustainable impact."
     }
   ];
 
@@ -103,8 +111,11 @@ const Contact = () => {
                     Headquarters
                   </h3>
                   <div className="space-y-2 text-muted-foreground">
-                    <p>123 Sustainability Street</p>
-                    <p>New Delhi, India 110001</p>
+                    <p className="font-medium">TerraVi Foundation</p>
+                    <p>Green Tower, Sector 21</p>
+                    <p>Gurugram, Haryana 122016</p>
+                    <p>Phone: +91-124-TERRAVI</p>
+                    <p>Email: info@terravi.org</p>
                   </div>
                 </div>
 
@@ -113,29 +124,50 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold mb-4">Regional Offices</h3>
                   <div className="space-y-4 text-muted-foreground">
                     <div>
-                      <p className="font-medium">Mumbai Office</p>
-                      <p className="text-sm">456 Marine Drive, Mumbai 400001</p>
+                      <p className="font-medium">North India Hub</p>
+                      <p className="text-sm">Delhi NCR Regional Office</p>
+                      <p className="text-sm">Email: north@terravi.org</p>
+                      <p className="text-sm">Phone: +91-11-TERRAVI</p>
                     </div>
                     <div>
-                      <p className="font-medium">Bangalore Office</p>
-                      <p className="text-sm">789 MG Road, Bangalore 560001</p>
+                      <p className="font-medium">West India Hub</p>
+                      <p className="text-sm">Mumbai Regional Office</p>
+                      <p className="text-sm">Email: west@terravi.org</p>
+                      <p className="text-sm">Phone: +91-22-TERRAVI</p>
+                    </div>
+                    <div>
+                      <p className="font-medium">South India Hub</p>
+                      <p className="text-sm">Bangalore Regional Office</p>
+                      <p className="text-sm">Email: south@terravi.org</p>
+                      <p className="text-sm">Phone: +91-80-TERRAVI</p>
                     </div>
                   </div>
                 </div>
 
-                {/* Contact Info */}
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <Phone className="h-5 w-5 text-primary" />
-                    <span>+91 11 2345 6789</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <Mail className="h-5 w-5 text-primary" />
-                    <span>contact@terravi.org</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <Clock className="h-5 w-5 text-primary" />
-                    <span>Monday - Friday: 9:00 AM - 6:00 PM IST</span>
+                {/* Specialized Contact */}
+                <div className="bg-card rounded-xl p-6 shadow-card">
+                  <h3 className="text-xl font-semibold mb-4">Specialized Contact</h3>
+                  <div className="space-y-3 text-muted-foreground text-sm">
+                    <div>
+                      <p className="font-medium">Volunteer Coordination</p>
+                      <p>volunteer@terravi.org | +91-124-VOLUNTEER</p>
+                    </div>
+                    <div>
+                      <p className="font-medium">Media & Press</p>
+                      <p>media@terravi.org | +91-124-MEDIA</p>
+                    </div>
+                    <div>
+                      <p className="font-medium">Partnership Inquiries</p>
+                      <p>partnerships@terravi.org | +91-124-PARTNER</p>
+                    </div>
+                    <div>
+                      <p className="font-medium">Donor Relations</p>
+                      <p>donors@terravi.org | +91-124-DONORS</p>
+                    </div>
+                    <div>
+                      <p className="font-medium text-red-600">Emergency Contact</p>
+                      <p>emergency@terravi.org | +91-124-URGENT (24/7)</p>
+                    </div>
                   </div>
                 </div>
               </div>
