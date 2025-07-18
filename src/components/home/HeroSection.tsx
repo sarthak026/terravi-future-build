@@ -2,17 +2,11 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Play } from 'lucide-react';
 import heroImage from '@/assets/hero-image.jpg';
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/lovable-uploads/eccca76f-66f1-476c-89e4-1a31a41e6ff8.png" 
-          alt="Ocean waves representing TerraVi's water conservation mission" 
-          className="w-full h-full object-cover"
-        />
+        <img src="/lovable-uploads/eccca76f-66f1-476c-89e4-1a31a41e6ff8.png" alt="Ocean waves representing TerraVi's water conservation mission" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/60 to-primary/40"></div>
       </div>
 
@@ -36,32 +30,31 @@ const HeroSection = () => {
               Start Your Impact Journey
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button 
-              variant="outline" 
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-            >
-              <Play className="mr-2 h-5 w-5" />
-              Watch Our Story
-            </Button>
+            
           </div>
 
           {/* Quick Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-            {[
-              { number: '50,000+', label: 'Students Empowered' },
-              { number: '100+', label: 'Communities Served' },
-              { number: '20,000+', label: 'Trees Planted' },
-              { number: '150+', label: 'Women Empowered' },
-            ].map((stat, index) => (
-              <div key={index} className="text-center">
+            {[{
+            number: '50,000+',
+            label: 'Students Empowered'
+          }, {
+            number: '100+',
+            label: 'Communities Served'
+          }, {
+            number: '20,000+',
+            label: 'Trees Planted'
+          }, {
+            number: '150+',
+            label: 'Women Empowered'
+          }].map((stat, index) => <div key={index} className="text-center">
                 <div className="text-2xl md:text-3xl font-bold text-primary-foreground mb-1">
                   {stat.number}
                 </div>
                 <div className="text-sm text-primary-foreground/80">
                   {stat.label}
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </div>
@@ -72,8 +65,6 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-primary-foreground/50 rounded-full mt-2 animate-bounce"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
