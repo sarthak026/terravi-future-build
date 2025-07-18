@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Building Tomorrow's 
-            <span className="block gradient-text bg-gradient-to-r from-primary-glow to-primary-foreground bg-clip-text text-transparent">
+            <span className="block gradient-text bg-gradient-to-r from-primary-glow to-primary-foreground bg-clip-text text-zinc-50">
               World Today
             </span>
           </h1>
