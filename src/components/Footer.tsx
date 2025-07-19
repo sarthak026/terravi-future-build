@@ -3,11 +3,9 @@ import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4 py-12">
+  return <footer className="bg-primary text-primary-foreground">
+      <div className="container mx-auto px-4 py-12 bg-green-800">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand & Mission */}
           <div className="lg:col-span-2">
@@ -41,23 +39,29 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              {[
-                { href: '/about', label: 'About Us' },
-                { href: '/work', label: 'Our Work' },
-                { href: '/campaigns', label: 'Campaigns' },
-                { href: '/impact', label: 'Impact' },
-                { href: '/get-involved', label: 'Get Involved' },
-                { href: '/news', label: 'News' },
-              ].map((link) => (
-                <li key={link.href}>
-                  <Link 
-                    to={link.href} 
-                    className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth"
-                  >
+              {[{
+              href: '/about',
+              label: 'About Us'
+            }, {
+              href: '/work',
+              label: 'Our Work'
+            }, {
+              href: '/campaigns',
+              label: 'Campaigns'
+            }, {
+              href: '/impact',
+              label: 'Impact'
+            }, {
+              href: '/get-involved',
+              label: 'Get Involved'
+            }, {
+              href: '/news',
+              label: 'News'
+            }].map(link => <li key={link.href}>
+                  <Link to={link.href} className="text-primary-foreground/80 hover:text-primary-foreground transition-smooth">
                     {link.label}
                   </Link>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -92,11 +96,7 @@ const Footer = () => {
               Subscribe to our newsletter for the latest updates on our initiatives.
             </p>
             <div className="flex space-x-2">
-              <Input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/60"
-              />
+              <Input type="email" placeholder="Enter your email" className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/60" />
               <Button variant="secondary" className="px-6">
                 Subscribe
               </Button>
@@ -111,8 +111,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
