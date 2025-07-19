@@ -7,7 +7,7 @@ const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img src="/lovable-uploads/eccca76f-66f1-476c-89e4-1a31a41e6ff8.png" alt="Ocean waves representing TerraVi's water conservation mission" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/60 to-primary/40 bg-lime-500"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/60 to-primary/40"></div>
       </div>
 
       {/* Content */}
