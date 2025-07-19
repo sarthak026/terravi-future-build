@@ -8,44 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* TerraVi Blue Theme */
-    --background: 0 0% 100%;
-    --foreground: 210 11% 15%;
+    /* TerraVi Green Theme */
+    --background: 150 15% 97%;
+    --foreground: 160 15% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 210 11% 15%;
+    --card: 150 10% 98%;
+    --card-foreground: 160 15% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 11% 15%;
+    --popover: 150 10% 98%;
+    --popover-foreground: 160 15% 15%;
 
-    --primary: 214 100% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 214 100% 65%;
+    --primary: 165 75% 40%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 165 65% 55%;
 
-    --secondary: 214 32% 91%;
-    --secondary-foreground: 210 11% 15%;
+    --secondary: 155 40% 85%;
+    --secondary-foreground: 160 15% 15%;
 
-    --muted: 214 32% 95%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 150 30% 92%;
+    --muted-foreground: 160 12% 50%;
 
-    --accent: 214 32% 91%;
-    --accent-foreground: 210 11% 15%;
+    --accent: 170 50% 80%;
+    --accent-foreground: 160 15% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 214 31.8% 91.4%;
-    --input: 214 31.8% 91.4%;
-    --ring: 214 100% 50%;
+    --border: 155 25% 88%;
+    --input: 155 25% 88%;
+    --ring: 165 75% 40%;
 
     --radius: 0.75rem;
 
-    /* Custom TerraVi Design Tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(214 100% 50%), hsl(214 100% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(214 100% 50%) 0%, hsl(214 100% 65%) 50%, hsl(0 0% 100%) 100%);
-    --gradient-section: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(214 32% 98%) 100%);
-    --shadow-card: 0 4px 20px -4px hsl(214 100% 50% / 0.1);
-    --shadow-hero: 0 20px 40px -12px hsl(214 100% 50% / 0.25);
+    /* Custom TerraVi Green Design Tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(165 75% 40%), hsl(165 65% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(165 75% 40%) 0%, hsl(170 60% 50%) 50%, hsl(150 20% 95%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(150 15% 97%) 0%, hsl(155 25% 94%) 100%);
+    --shadow-card: 0 4px 20px -4px hsl(165 75% 40% / 0.15);
+    --shadow-hero: 0 20px 40px -12px hsl(165 75% 40% / 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
