@@ -26,6 +26,7 @@ const Navigation = () => {
     { href: '/get-involved', label: 'Get Involved' },
     { href: '/news', label: 'News' },
     { href: '/resources', label: 'Resources' },
+    { href: '/gallery', label: 'Gallery' },
     { href: '/contact', label: 'Contact' },
   ];
 

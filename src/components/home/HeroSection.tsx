@@ -6,16 +6,16 @@ const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img src="/lovable-uploads/eccca76f-66f1-476c-89e4-1a31a41e6ff8.png" alt="Ocean waves representing TerraVi's water conservation mission" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/60 to-primary/40"></div>
+        <img src="/lovable-uploads/aa9f55a1-e4aa-44b5-942a-a8e2c89f3748.png" alt="Majestic tree representing growth, sustainability and connection to nature" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/70 via-primary/50 to-transparent"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Building Tomorrow's 
-            <span className="block gradient-text bg-gradient-to-r from-primary-glow to-primary-foreground bg-clip-text text-zinc-50">
+            Growing Tomorrow's 
+            <span className="block text-primary-foreground">
               World Today
             </span>
           </h1>
