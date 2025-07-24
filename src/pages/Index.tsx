@@ -14,11 +14,9 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
-        <WelcomeSection />
-        <MissionSection />
-        <GalleryPreview />
-        <ImpactSection />
-        <FocusAreasSection />
+        <section id="about">
+          <WelcomeSection />
+        </section>
       </main>
       <Footer />
     </div>

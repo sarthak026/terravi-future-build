@@ -69,6 +69,22 @@ const Gallery = () => {
       description: 'Conducting vital research to understand and protect natural ecosystems.',
       category: 'Research'
     },
+    {
+      id: 9,
+      type: 'image',
+      src: '/lovable-uploads/d43f398d-55d0-4ce7-8272-7fa5fa166c01.png',
+      title: 'Embracing Nature',
+      description: 'Young environmental advocate connecting with the natural world and sharing the joy of sustainability.',
+      category: 'Community'
+    },
+    {
+      id: 10,
+      type: 'image',
+      src: '/lovable-uploads/d4d520e1-e736-4380-a26e-00d133eb6b74.png',
+      title: 'Hands-On Conservation',
+      description: 'Community member actively participating in tree planting and environmental restoration efforts.',
+      category: 'Nature'
+    },
   ];
 
   const categories = ['All', 'Community', 'Education', 'Nature', 'Research'];

@@ -24,16 +24,48 @@ const About = () => {
         {/* Our Story */}
         <section className="py-20">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <h2 className="text-4xl font-bold text-center mb-12">Our Story</h2>
-              <div className="prose prose-lg max-w-none">
-                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  Founded as a response to India's urgent need for sustainable development solutions, 
-                  TerraVi emerged from the recognition that environmental challenges require community-
-                  centered approaches. We believe that lasting change happens when local communities are 
-                  empowered with the tools, knowledge, and resources they need to create their sustainable 
-                  future.
-                </p>
+              
+              <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
+                <div>
+                  <img 
+                    src="/lovable-uploads/d43f398d-55d0-4ce7-8272-7fa5fa166c01.png" 
+                    alt="Young environmental steward with arms outstretched in nature"
+                    className="w-full h-96 object-cover rounded-2xl shadow-gallery"
+                  />
+                </div>
+                <div>
+                  <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                    Founded as a response to India's urgent need for sustainable development solutions, 
+                    TerraVi emerged from the recognition that environmental challenges require community-
+                    centered approaches. We believe that lasting change happens when local communities are 
+                    empowered with the tools, knowledge, and resources they need to create their sustainable 
+                    future.
+                  </p>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    Through hands-on engagement with nature and community-driven initiatives, we're building 
+                    a movement that connects people to the earth and to each other, fostering both 
+                    environmental stewardship and social resilience.
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="md:order-2">
+                  <img 
+                    src="/lovable-uploads/d4d520e1-e736-4380-a26e-00d133eb6b74.png" 
+                    alt="Community member planting and nurturing young plants"
+                    className="w-full h-96 object-cover rounded-2xl shadow-gallery"
+                  />
+                </div>
+                <div className="md:order-1">
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    Our approach is rooted in the understanding that environmental restoration and community 
+                    empowerment go hand in hand. Every tree planted, every skill shared, and every life touched 
+                    contributes to a larger tapestry of positive change that extends far beyond individual actions.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

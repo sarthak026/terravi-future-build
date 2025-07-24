@@ -8,25 +8,24 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight animate-fade-in">
-            Rooted in Nature,
+            Rooted in Nature.
             <span className="block text-primary-foreground bg-gradient-to-r from-primary-foreground to-primary-foreground/80 bg-clip-text">
-              Growing Together
+              United for Change.
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-10 text-primary-foreground/95 max-w-4xl mx-auto leading-relaxed animate-fade-in">
-            Where communities flourish through environmental stewardship, sustainable practices, 
-            and the powerful connection between people and the earth we share.
+            Join us in building a greener, more sustainable future.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16 animate-fade-in">
-            <Button variant="hero" className="!bg-primary-foreground !text-primary hover:!bg-primary-foreground/90 !px-10 !py-5 !text-xl shadow-2xl">
-              Join the Movement
+            <Button 
+              variant="hero" 
+              className="!bg-primary-foreground !text-primary hover:!bg-primary-foreground/90 !px-10 !py-5 !text-xl shadow-2xl"
+              onClick={() => document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Explore More
               <ArrowRight className="ml-3 h-6 w-6" />
-            </Button>
-            <Button variant="outline" className="!border-primary-foreground/30 !text-primary-foreground hover:!bg-primary-foreground/10 !px-8 !py-4 !text-lg">
-              <Play className="mr-3 h-5 w-5" />
-              See Our Journey
             </Button>
           </div>
 
