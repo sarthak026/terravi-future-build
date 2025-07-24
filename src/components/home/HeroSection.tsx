@@ -3,34 +3,31 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Play } from 'lucide-react';
 import heroImage from '@/assets/hero-image.jpg';
 const HeroSection = () => {
-  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <img src="/lovable-uploads/aa9f55a1-e4aa-44b5-942a-a8e2c89f3748.png" alt="Majestic tree representing growth, sustainability and connection to nature" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/70 via-primary/50 to-transparent"></div>
-      </div>
-
+  return <section className="nature-hero">
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Growing Tomorrow's 
-            <span className="block text-primary-foreground">
-              World Today
+        <div className="max-w-5xl mx-auto">
+          <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight animate-fade-in">
+            Rooted in Nature,
+            <span className="block text-primary-foreground bg-gradient-to-r from-primary-foreground to-primary-foreground/80 bg-clip-text">
+              Growing Together
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-            Join TerraVi in creating a sustainable, equitable future where people and planet 
-            thrive together through innovative solutions and community action.
+          <p className="text-xl md:text-2xl mb-10 text-primary-foreground/95 max-w-4xl mx-auto leading-relaxed animate-fade-in">
+            Where communities flourish through environmental stewardship, sustainable practices, 
+            and the powerful connection between people and the earth we share.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button variant="hero" className="!bg-primary-foreground !text-primary hover:!bg-primary-foreground/90">
-              Start Your Impact Journey
-              <ArrowRight className="ml-2 h-5 w-5" />
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16 animate-fade-in">
+            <Button variant="hero" className="!bg-primary-foreground !text-primary hover:!bg-primary-foreground/90 !px-10 !py-5 !text-xl shadow-2xl">
+              Join the Movement
+              <ArrowRight className="ml-3 h-6 w-6" />
             </Button>
-            
+            <Button variant="outline" className="!border-primary-foreground/30 !text-primary-foreground hover:!bg-primary-foreground/10 !px-8 !py-4 !text-lg">
+              <Play className="mr-3 h-5 w-5" />
+              See Our Journey
+            </Button>
           </div>
 
           {/* Quick Stats */}
