@@ -124,44 +124,9 @@ const Campaigns = () => {
                   <div className="p-6">
                     <p className="text-muted-foreground mb-6">{campaign.description}</p>
 
-                    {/* Progress */}
-                    <div className="mb-6">
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-sm font-medium">Progress</span>
-                        <span className="text-sm text-muted-foreground">
-                          ₹{campaign.raised.toLocaleString()} of ₹{campaign.goal.toLocaleString()}
-                        </span>
-                      </div>
-                      <Progress value={(campaign.raised / campaign.goal) * 100} className="h-2" />
-                      <div className="flex justify-between items-center mt-2 text-sm">
-                        <span className="text-muted-foreground">{Math.round((campaign.raised / campaign.goal) * 100)}% funded</span>
-                        <span className="text-muted-foreground">{campaign.timeLeft}</span>
-                      </div>
-                    </div>
-
-                    {/* Stats */}
-                    <div className="flex items-center justify-between mb-6 p-4 bg-muted rounded-lg">
-                      <div className="text-center">
-                        <div className="text-lg font-bold">{campaign.supporters}</div>
-                        <div className="text-xs text-muted-foreground">Supporters</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-lg font-bold">₹{Math.round(campaign.raised / campaign.supporters)}</div>
-                        <div className="text-xs text-muted-foreground">Avg. Donation</div>
-                      </div>
-                      <div className="text-center">
-                        <div className="text-lg font-bold">{Math.round((campaign.raised / campaign.goal) * 100)}%</div>
-                        <div className="text-xs text-muted-foreground">Complete</div>
-                      </div>
-                    </div>
-
-                    {/* Action Buttons */}
-                    <div className="flex gap-3">
-                      <Button variant="hero" className="flex-1 !py-2 !text-sm">
-                        <Heart className="mr-2 h-4 w-4" />
-                        Sponsor Now
-                      </Button>
-                      <Button variant="outline" className="flex-1">
+                    {/* Action Button */}
+                    <div className="flex justify-center">
+                      <Button variant="outline" className="px-8">
                         <Users className="mr-2 h-4 w-4" />
                         Join Campaign
                       </Button>
@@ -173,30 +138,6 @@ const Campaigns = () => {
           </div>
         </section>
 
-        {/* Seasonal Campaigns */}
-        <section className="py-20 gradient-section">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-6">Seasonal Campaigns</h2>
-              <p className="text-xl text-muted-foreground">
-                Year-round initiatives aligned with natural cycles for maximum impact
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-              {seasonalCampaigns.map((campaign, index) => (
-                <div key={index} className="bg-card rounded-xl p-6 shadow-card text-center">
-                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Target className="h-8 w-8 text-primary" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">{campaign.title}</h3>
-                  <p className="text-primary font-medium mb-3">{campaign.period}</p>
-                  <p className="text-muted-foreground text-sm">{campaign.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* Call to Action */}
         <section className="py-20">

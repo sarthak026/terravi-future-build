@@ -59,9 +59,9 @@ const WelcomeSection = () => {
           <div className="bg-white/50 backdrop-blur-sm rounded-2xl p-8 shadow-card">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               {[
-                { number: '50,000+', label: 'Students Empowered' },
+                { number: '25,000+', label: 'Students Empowered' },
                 { number: '100+', label: 'Communities Served' },
-                { number: '20,000+', label: 'Trees Planted' },
+                { number: '5000+', label: 'Trees Planted' },
                 { number: '150+', label: 'Women Empowered' }
               ].map((stat, index) => (
                 <div key={index}>

@@ -58,9 +58,6 @@ const Navigation = () => {
                 {item.label}
               </Link>
             ))}
-            <Button variant="hero" className="!px-6 !py-2 !text-sm">
-              Donate Now
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -93,11 +90,6 @@ const Navigation = () => {
                   {item.label}
                 </Link>
               ))}
-              <div className="px-3 py-2">
-                <Button variant="hero" className="!px-6 !py-2 !text-sm w-full">
-                  Donate Now
-                </Button>
-              </div>
             </div>
           </div>
         )}
