@@ -22,9 +22,9 @@ const Campaigns = () => {
     },
     {
       id: 'greenenergy',
-      title: 'Beech Clean Up',
+      title: 'Beach Clean Up',
       subtitle: 'Powering Communities with Renewable Energy',
-      description: 'Installing solar panels and renewable energy systems in off-grid communities to provide sustainable, affordable electricity.',
+      description: 'Bringing clean energy to remote communities by harnessing solar power—lighting homes, powering futures.',
       icon: Zap,
       goal: 500000,
       raised: 320000,

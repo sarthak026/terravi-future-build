@@ -9,22 +9,19 @@ const News = () => {
       date: "December 2024",
       title: "TerraVi Wins National Recognition for Water Innovation",
       summary: "Our revolutionary water filtration system received the National Green Innovation Award, recognizing its impact on rural health and environmental protection.",
-      category: "Awards",
-      readTime: "3 min read"
+      category: "Awards"
     },
     {
       date: "November 2024",
       title: "25,000 Students Milestone Achieved",
       summary: "We're thrilled to announce that we've reached our goal of impacting 25,000 students through environmental education programs across 15 states.",
-      category: "Education",
-      readTime: "2 min read"
+      category: "Education"
     },
     {
       date: "October 2024",
       title: "New Partnership with Agricultural Universities",
       summary: "Strategic partnerships have been established with 5 agricultural universities to expand our waste-to-energy programs and research initiatives.",
-      category: "Partnerships",
-      readTime: "4 min read"
+      category: "Partnerships"
     }
   ];
 
@@ -97,7 +94,6 @@ const News = () => {
                       <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
                         {news.category}
                       </span>
-                      <span className="text-sm text-muted-foreground">{news.readTime}</span>
                     </div>
                     
                     <h3 className="text-xl font-bold mb-3 hover:text-primary transition-smooth cursor-pointer">
