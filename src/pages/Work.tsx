@@ -9,9 +9,9 @@ const Work = () => {
       icon: Droplets,
       title: "Clean Water & Sanitation Revolution",
       challenge: "1.7 billion people worldwide lack access to clean and safe drinking water.",
-      solution: "We've developed affordable, easy-to-use water filtration devices specifically designed for rural households. Our filters selectively remove contaminants, including dissolved solids, biological contents, heavy metals, chemicals, and pesticides, while improving taste and odor.",
+      solution: "Our founder has developed affordable, easy-to-use water filtration devices specifically designed for rural households. Our filters selectively remove contaminants, including dissolved solids, biological contents, heavy metals, chemicals, and pesticides, while improving taste and odor.",
       impact: [
-        "Distributed water filters across remote villages in Rajasthan, reducing waterborne diseases by 60%",
+        "Distributed water filters across remote villages in INDIA, reducing waterborne diseases by 60%",
         "Trained local technicians to maintain and repair filtration systems, creating sustainable employment",
         "Established community water monitoring programs led by local women"
       ]
@@ -22,9 +22,9 @@ const Work = () => {
       challenge: "998 million tons of agricultural waste are produced annually worldwide, creating environmental, economic, and social consequences.",
       solution: "We transform agricultural waste like rice straw into valuable bioenergy sources, including bioethanol, biochemicals, and biogas through low-cost, environmentally sustainable processes.",
       impact: [
-        "100+ rural communities now powered by renewable energy",
+        "MULTIPLE rural communities now powered by renewable energy",
         "12% average increase in agricultural income for participating farmers",
-        "500,000+ pounds of CO2 emissions prevented"
+        "250,000+ Pounds CO2 emissions prevented"
       ]
     },
     {
@@ -33,10 +33,10 @@ const Work = () => {
       challenge: "Education and empowerment are the foundation of sustainable development.",
       solution: "We provide communities with the knowledge, skills, and tools they need to understand and address environmental, social, and economic challenges.",
       impact: [
-        "EcoEducators Initiative: Environmental education in 50+ schools",
+        "EcoEducators Initiative: Environmental education in schools",
         "Community Leadership Development: Training local environmental champions",
-        "Women's Empowerment: Supporting 150+ women waste-pickers with skills and resources",
-        "Youth Climate Champions: Engaging 50,000+ students across India"
+        "Women's Empowerment: Supporting women waste-pickers with skills and resources",
+        "Youth Climate Champions: Engaging students across India"
       ]
     },
     {
@@ -47,7 +47,7 @@ const Work = () => {
       impact: [
         "Carbon Footprint Reduction: Community-based programs reducing household emissions",
         "Renewable Energy Transition: Supporting communities in adopting clean energy",
-        "Reforestation Projects: 20,000+ trees planted in urban and rural areas",
+        "Reforestation Projects: 5000+ trees planted in urban and rural areas",
         "Climate Education: Raising awareness about climate change impacts and solutions"
       ]
     },
@@ -152,10 +152,6 @@ const Work = () => {
               <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-smooth">
                 <Users className="mr-2 h-5 w-5 inline" />
                 Volunteer With Us
-              </button>
-              <button className="bg-white/10 text-foreground border border-primary/20 px-8 py-3 rounded-lg font-semibold hover:bg-white/20 transition-smooth">
-                <Lightbulb className="mr-2 h-5 w-5 inline" />
-                Support Our Work
               </button>
             </div>
           </div>

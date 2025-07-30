@@ -22,7 +22,7 @@ const Campaigns = () => {
     },
     {
       id: 'greenenergy',
-      title: 'Green Energy Revolution',
+      title: 'Beech Clean Up',
       subtitle: 'Powering Communities with Renewable Energy',
       description: 'Installing solar panels and renewable energy systems in off-grid communities to provide sustainable, affordable electricity.',
       icon: Zap,
@@ -35,9 +35,9 @@ const Campaigns = () => {
     },
     {
       id: 'treemission',
-      title: '3 Million Tree Mission',
+      title: 'Tree Planting Mission',
       subtitle: 'Reforesting India for Climate Action',
-      description: 'Planting 3 million trees across degraded lands to combat climate change, restore ecosystems, and create sustainable livelihoods.',
+      description: 'Planting trees across degraded lands to combat climate change, restore ecosystems, and create sustainable livelihoods.',
       icon: TreePine,
       goal: 300000,
       raised: 180000,

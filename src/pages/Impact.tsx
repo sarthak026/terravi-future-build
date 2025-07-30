@@ -1,23 +1,19 @@
 import React from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { Leaf, Users, DollarSign, Award, TreePine, Droplets, Zap, GraduationCap } from 'lucide-react';
+import { Leaf, Users, DollarSign, Award, TreePine, Droplets, Zap, GraduationCap, Recycle } from 'lucide-react';
 
 const Impact = () => {
   const environmentalImpact = [
-    { metric: "500,000+", label: "Pounds CO2 emissions prevented", icon: Leaf },
-    { metric: "2.5 MW", label: "Clean energy capacity installed", icon: Zap },
-    { metric: "1,000+", label: "Tons of waste recycled", icon: TreePine },
-    { metric: "10 million", label: "Liters of water saved", icon: Droplets },
-    { metric: "50+", label: "Native species conservation projects", icon: Leaf },
+    { metric: "250,000+", label: "Pounds CO2 emissions prevented", icon: Leaf },
+    { metric: "5,000+", label: "Trees planted", icon: TreePine },
+    { metric: "500+", label: "tons of waste recycled through community programs", icon: Recycle },
   ];
 
   const socialImpact = [
-    { metric: "50,000+", label: "Students reached through education", icon: GraduationCap },
-    { metric: "500+", label: "Green jobs created", icon: Users },
-    { metric: "60%", label: "Reduction in waterborne diseases", icon: Droplets },
+    { metric: "25,000+", label: "Students reached through education", icon: GraduationCap },
     { metric: "150+", label: "Women waste-pickers empowered", icon: Users },
-    { metric: "100+", label: "Communities climate-prepared", icon: Users },
+    { metric: "60%", label: "Reduction in waterborne diseases", icon: Droplets },
   ];
 
   const economicImpact = [
@@ -119,29 +115,6 @@ const Impact = () => {
           </div>
         </section>
 
-        {/* Economic Impact */}
-        <section className="py-20">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-6">Economic Impact</h2>
-              <p className="text-xl text-muted-foreground">
-                Creating sustainable livelihoods and economic opportunities
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {economicImpact.map((item, index) => (
-                <div key={index} className="bg-card rounded-xl p-8 shadow-card text-center">
-                  <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <item.icon className="h-8 w-8 text-yellow-600" />
-                  </div>
-                  <div className="text-3xl font-bold text-primary mb-2">{item.metric}</div>
-                  <p className="text-muted-foreground">{item.label}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* Recognition & Awards */}
         <section className="py-20 gradient-section">
@@ -183,9 +156,6 @@ const Impact = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-smooth">
                 Support Our Mission
-              </button>
-              <button className="bg-white/10 text-foreground border border-primary/20 px-8 py-3 rounded-lg font-semibold hover:bg-white/20 transition-smooth">
-                View Annual Report
               </button>
             </div>
           </div>

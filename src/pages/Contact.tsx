@@ -145,7 +145,10 @@ const Contact = () => {
               <p className="text-muted-foreground mb-4">
                 Have a different question? We're here to help!
               </p>
-              <Button variant="outline">
+              <Button 
+                variant="outline" 
+                onClick={() => window.location.href = '/contact'}
+              >
                 Contact Support
               </Button>
             </div>

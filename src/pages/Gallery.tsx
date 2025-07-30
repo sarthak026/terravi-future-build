@@ -172,9 +172,6 @@ const Gallery = () => {
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             Join us in creating more moments of impact. Every contribution helps us grow stronger communities and a healthier planet.
           </p>
-          <button className="hero-button">
-            Get Involved Today
-          </button>
         </div>
       </section>
 

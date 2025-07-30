@@ -14,8 +14,8 @@ const News = () => {
     },
     {
       date: "November 2024",
-      title: "50,000 Students Milestone Achieved",
-      summary: "We're thrilled to announce that we've reached our goal of impacting 50,000 students through environmental education programs across 15 states.",
+      title: "25,000 Students Milestone Achieved",
+      summary: "We're thrilled to announce that we've reached our goal of impacting 25,000 students through environmental education programs across 15 states.",
       category: "Education",
       readTime: "2 min read"
     },
@@ -30,19 +30,19 @@ const News = () => {
 
   const upcomingEvents = [
     {
-      date: "January 2025",
-      title: "Clean Water Summit Delhi",
+      date: "September 2025",
+      title: "Clean Water Summit Bengaluru",
       description: "Join 500+ stakeholders discussing innovative water solutions. Registration is open for community leaders, students, and professionals.",
       status: "Registration Open"
     },
     {
-      date: "February 2025",
+      date: "December 2025",
       title: "Green Energy Expo Mumbai",
       description: "Showcasing our latest renewable energy innovations alongside a demonstration of agricultural waste conversion technologies.",
-      status: "Coming Soon"
+      status: "Registration Open"
     },
     {
-      date: "March 2025",
+      date: "March 2026",
       title: "Women in Sustainability Conference",
       description: "Celebrating women environmental leaders and launching new programs supporting women in green entrepreneurship.",
       status: "Save the Date"
@@ -113,9 +113,6 @@ const News = () => {
                         <Calendar className="h-4 w-4 mr-1" />
                         {news.date}
                       </div>
-                      <button className="text-primary hover:text-primary/80 transition-smooth flex items-center">
-                        Read More <ArrowRight className="h-4 w-4 ml-1" />
-                      </button>
                     </div>
                   </div>
                 </div>
@@ -156,7 +153,7 @@ const News = () => {
                     </div>
                     <div className="flex-shrink-0">
                       <button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-smooth flex items-center">
-                        Learn More <ExternalLink className="h-4 w-4 ml-2" />
+                        Register <ExternalLink className="h-4 w-4 ml-2" />
                       </button>
                     </div>
                   </div>
@@ -166,39 +163,6 @@ const News = () => {
           </div>
         </section>
 
-        {/* Press Releases */}
-        <section className="py-20">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-6">Press Releases</h2>
-              <p className="text-xl text-muted-foreground">
-                Official announcements and media updates from TerraVi
-              </p>
-            </div>
-
-            <div className="max-w-3xl mx-auto space-y-6">
-              {pressReleases.map((release, index) => (
-                <div key={index} className="bg-card rounded-xl p-6 shadow-card">
-                  <div className="flex items-start justify-between gap-4">
-                    <div className="flex-1">
-                      <h3 className="text-xl font-bold mb-2 hover:text-primary transition-smooth cursor-pointer">
-                        {release.title}
-                      </h3>
-                      <p className="text-muted-foreground mb-3">{release.description}</p>
-                      <div className="flex items-center text-sm text-muted-foreground">
-                        <Calendar className="h-4 w-4 mr-1" />
-                        {release.date}
-                      </div>
-                    </div>
-                    <button className="bg-primary/10 text-primary p-2 rounded-lg hover:bg-primary/20 transition-smooth">
-                      <Download className="h-5 w-5" />
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
       </main>
       <Footer />

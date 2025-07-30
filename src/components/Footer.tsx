@@ -67,25 +67,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Newsletter Signup */}
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8">
-          <div className="max-w-md mx-auto text-center">
-            <h3 className="text-lg font-semibold mb-2">Stay Updated</h3>
-            <p className="text-primary-foreground/80 text-sm mb-4">
-              Subscribe to our newsletter for the latest updates on our initiatives.
-            </p>
-            <div className="flex space-x-2">
-              <Input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/60"
-              />
-              <Button variant="secondary" className="px-6">
-                Subscribe
-              </Button>
-            </div>
-          </div>
-        </div>
 
         {/* Copyright */}
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
