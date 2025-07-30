@@ -41,13 +41,13 @@ const HeroSection = () => {
           {/* Quick Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             {[{
-              number: '50,000+',
+              number: '25,000+',
               label: 'Students Empowered'
             }, {
               number: '100+',
               label: 'Communities Served'
             }, {
-              number: '20,000+',
+              number: '5000+',
               label: 'Trees Planted'
             }, {
               number: '150+',

@@ -98,76 +98,20 @@ const Contact = () => {
               {/* Contact Details */}
               <div className="space-y-8">
                 <div>
-                  <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
+                  <h2 className="text-3xl font-bold mb-6">Contact Information</h2>
                   <p className="text-muted-foreground mb-8">
-                    We'd love to hear from you. Here's how you can reach our team.
+                    We'd love to hear from you. Reach out to us directly.
                   </p>
                 </div>
 
-                {/* Headquarters */}
+                {/* Email Only */}
                 <div className="bg-card rounded-xl p-6 shadow-card">
                   <h3 className="text-xl font-semibold mb-4 flex items-center">
-                    <MapPin className="mr-2 h-5 w-5 text-primary" />
-                    Headquarters
+                    <Mail className="mr-2 h-5 w-5 text-primary" />
+                    Email
                   </h3>
-                  <div className="space-y-2 text-muted-foreground">
-                    <p className="font-medium">TerraVi Foundation</p>
-                    <p>Green Tower, Sector 21</p>
-                    <p>Gurugram, Haryana 122016</p>
-                    <p>Phone: +91-124-TERRAVI</p>
-                    <p>Email: info@terravi.org</p>
-                  </div>
-                </div>
-
-                {/* Regional Offices */}
-                <div className="bg-card rounded-xl p-6 shadow-card">
-                  <h3 className="text-xl font-semibold mb-4">Regional Offices</h3>
-                  <div className="space-y-4 text-muted-foreground">
-                    <div>
-                      <p className="font-medium">North India Hub</p>
-                      <p className="text-sm">Delhi NCR Regional Office</p>
-                      <p className="text-sm">Email: north@terravi.org</p>
-                      <p className="text-sm">Phone: +91-11-TERRAVI</p>
-                    </div>
-                    <div>
-                      <p className="font-medium">West India Hub</p>
-                      <p className="text-sm">Mumbai Regional Office</p>
-                      <p className="text-sm">Email: west@terravi.org</p>
-                      <p className="text-sm">Phone: +91-22-TERRAVI</p>
-                    </div>
-                    <div>
-                      <p className="font-medium">South India Hub</p>
-                      <p className="text-sm">Bangalore Regional Office</p>
-                      <p className="text-sm">Email: south@terravi.org</p>
-                      <p className="text-sm">Phone: +91-80-TERRAVI</p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Specialized Contact */}
-                <div className="bg-card rounded-xl p-6 shadow-card">
-                  <h3 className="text-xl font-semibold mb-4">Specialized Contact</h3>
-                  <div className="space-y-3 text-muted-foreground text-sm">
-                    <div>
-                      <p className="font-medium">Volunteer Coordination</p>
-                      <p>volunteer@terravi.org | +91-124-VOLUNTEER</p>
-                    </div>
-                    <div>
-                      <p className="font-medium">Media & Press</p>
-                      <p>media@terravi.org | +91-124-MEDIA</p>
-                    </div>
-                    <div>
-                      <p className="font-medium">Partnership Inquiries</p>
-                      <p>partnerships@terravi.org | +91-124-PARTNER</p>
-                    </div>
-                    <div>
-                      <p className="font-medium">Donor Relations</p>
-                      <p>donors@terravi.org | +91-124-DONORS</p>
-                    </div>
-                    <div>
-                      <p className="font-medium text-red-600">Emergency Contact</p>
-                      <p>emergency@terravi.org | +91-124-URGENT (24/7)</p>
-                    </div>
+                  <div className="text-muted-foreground">
+                    <p className="font-medium">Info@terra-vi.org</p>
                   </div>
                 </div>
               </div>

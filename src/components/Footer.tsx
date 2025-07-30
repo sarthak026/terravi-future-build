@@ -23,16 +23,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-primary-foreground/10">
-                <Facebook className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-primary-foreground/10">
-                <Twitter className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-primary-foreground/10">
                 <Instagram className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="text-primary-foreground hover:bg-primary-foreground/10">
-                <Linkedin className="h-5 w-5" />
               </Button>
             </div>
           </div>
@@ -65,20 +56,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-3">
-              <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                <div className="text-primary-foreground/80 text-sm">
-                  123 Sustainability Street<br />
-                  New Delhi, India 110001
-                </div>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 flex-shrink-0" />
-                <span className="text-primary-foreground/80 text-sm">+91 11 2345 6789</span>
-              </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 flex-shrink-0" />
-                <span className="text-primary-foreground/80 text-sm">contact@terravi.org</span>
+                <span className="text-primary-foreground/80 text-sm">Info@terra-vi.org</span>
               </div>
             </div>
           </div>

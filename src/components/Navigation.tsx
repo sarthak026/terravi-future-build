@@ -23,9 +23,8 @@ const Navigation = () => {
     { href: '/work', label: 'Our Work' },
     { href: '/campaigns', label: 'Campaigns' },
     { href: '/impact', label: 'Impact' },
-    { href: '/get-involved', label: 'Get Involved' },
     { href: '/news', label: 'News' },
-    { href: '/resources', label: 'Resources' },
+    { href: '/resources', label: 'Blogs' },
     { href: '/gallery', label: 'Gallery' },
     { href: '/contact', label: 'Contact' },
   ];

@@ -200,26 +200,6 @@ const News = () => {
           </div>
         </section>
 
-        {/* Newsletter Signup */}
-        <section className="py-20 gradient-section">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-4xl font-bold mb-6">Stay Updated</h2>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Subscribe to our newsletter to receive the latest news, updates, and impact stories 
-              directly to your inbox.
-            </p>
-            <div className="max-w-md mx-auto flex gap-4">
-              <input 
-                type="email" 
-                placeholder="Enter your email address"
-                className="flex-1 px-4 py-3 rounded-lg border border-border bg-background text-foreground"
-              />
-              <button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-smooth">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </section>
       </main>
       <Footer />
     </div>

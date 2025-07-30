@@ -157,14 +157,6 @@ const Gallery = () => {
                     </span>
                   </div>
                 </div>
-                <CardContent className="p-4">
-                  <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-smooth">
-                    {item.title}
-                  </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed line-clamp-3">
-                    {item.description}
-                  </p>
-                </CardContent>
               </div>
             ))}
           </div>
